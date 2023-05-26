@@ -1,48 +1,48 @@
 {
     "html": {
-        "avatarOverlay": "Edit"
+        "avatarOverlay": "Modifier"
     },
     "js": {
         "login": {
             "error": {
-                "invalidValue": "* Invalid Value",
-                "requiredValue": "* Required",
+                "invalidValue": "* Valeur incorrect",
+                "requiredValue": "* Requis",
                 "userMigrated": {
-                    "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "You've attempted to login with a migrated account. Try again using the account email as the username."
+                    "title": "Erreur durant la connexion:<br>Identifiant invalide",
+                    "desc": "Vous avez essayer de vous loguer avec un compte migré. Veuillez vous connecter avec l'email à la place du nom."
                 },
                 "invalidCredentials": {
-                    "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "The email or password you've entered is incorrect. Please try again."
+                    "title": "Erreur durant la connexion:<br>Identifiant invalide.",
+                    "desc": "L'email ou le mot de passe que vous avez entrer est incorrect. Veuillez réessayer. "
                 },
                 "rateLimit": {
-                    "title": "Error During Login:<br>Too Many Attempts",
-                    "desc": "There have been too many login attempts with this account recently. Please try again later."
+                    "title": "Erreur durant la connexion:<br>Trop de tentatives.",
+                    "desc": "Il y a eu trop de tentatives. Veullez réessayer plus tard."
                 },
                 "noInternet": {
-                    "title": "Error During Login:<br>No Internet Connection",
-                    "desc": "You must be connected to the internet in order to login. Please connect and try again."
+                    "title": "Erreur durant la connexion:<br>Pas de connexion internet",
+                    "desc": "Vous devez vous connecter a internet pour vous connecter."
                 },
                 "authDown": {
-                    "title": "Error During Login:<br>Authentication Server Offline",
-                    "desc": "Mojang's authentication server is currently offline or unreachable. Please wait a bit and try again. You can check the status of the server on <a href=\"https://help.mojang.com/\">Mojang's help portal</a>."
+                    "title": "Erreur durant la connexion:<br>Serveur d'authentification hors ligne",
+                    "desc": "Serveur d'authentification Mojang hors ligne. Allez voir le statut des serveurs ici: <a href=\"https://help.mojang.com/\">Mojang's help portal</a>."
                 },
                 "notPaid": {
-                    "title": "Error During Login:<br>Game Not Purchased",
-                    "desc": "The account you are trying to login with has not purchased a copy of Minecraft.<br>You may purchase a copy on <a href=\"https://minecraft.net/\">Minecraft.net</a>"
+                    "title": "Erreur durant la connexion:<br>Jeu non acheté.",
+                    "desc": "Vous devez acheter le jeu Minecraft pour pouvoir jouer, acheter-le ici:<a href=\"https://minecraft.net/\">Minecraft.net</a>"
                 },
                 "unknown": {
-                    "title": "Error During Login:<br>Unknown Error"
+                    "title": "Erreur durant la connexion:<br>Erreur inconnue."
                 }
             },
-            "login": "LOGIN",
-            "loggingIn": "LOGGING IN",
-            "success": "SUCCESS",
-            "tryAgain": "Try Again"
+            "login": "Connecter",
+            "loggingIn": "Se connecter",
+            "success": "SUCCES",
+            "tryAgain": "Réessayer"
         },
         "landing": {
             "launch": {
-                "pleaseWait": "Please wait.."
+                "pleaseWait": "Merci de patienter..."
             }
         }
     }
